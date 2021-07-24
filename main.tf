@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "tsd"
     workspaces {
-      name = "Example-Workspace"
+      name = "iac-test"
     }
   }
   required_providers {
